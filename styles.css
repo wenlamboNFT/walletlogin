@@ -1,6 +1,11 @@
 * {
-  font-family: Euclid, sans-serif;
-}
+  font-family: 'Josefin Sans', serif;
+  }
+  
+ body {
+	 background: black;
+	 color:#86c6e7;
+ }
 
 .center {
   display: block;
@@ -13,9 +18,9 @@
 }
 
 #logo {
-  max-width: 125px;
-  max-height: 125px;
-  margin: 15px auto;
+  max-width: 250px;
+  max-height: 250px;
+  margin: 70px auto;
 }
 
 #logo img {
@@ -39,15 +44,15 @@
   transition-duration: 200ms;
   opacity: 0;
   visibility: hidden;
-  background-color: white;
+  background-color: #86c6e7;
   border: 1px solid #037dd6;
   font-weight: bold;
   color: #037dd6;
   border-radius: 100px;
-  margin: 10px;
-  margin-top: 21px;
-  height: 45px;
+  margin: 10px auto;
+  margin-top: 45px;
   width: 170px;
+  padding: 20px;
 }
 
 #response-button.active {
@@ -57,5 +62,6 @@
 
 #response-button:hover {
   cursor: pointer;
-  box-shadow: lightgray 0px 0px 10px;
+  background-color: #1d89ca;
+  color: #fdd10f;
 }
